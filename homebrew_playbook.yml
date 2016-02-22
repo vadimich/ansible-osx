@@ -1,0 +1,33 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: install homebrew_taps
+      sudo: false
+      homebrew_tap: tap=gapple/services,pivotal/tap,caskroom/cask 
+
+    - name: Install Homebrew recepies
+      sudo: false
+      homebrew: name={{item}}
+      with_items:
+        - dockutil
+        - haskell-stack
+
+    - name: Install Homebrew Casks
+      homebrew_cask: name={{item}}
+      with_items:
+        - dashlane
+        - vmware-fusion
+        - fantastical
+        - omnifocus
+        - mailmate
+        - google-chrome
+        - dropbox
+        - iterm2
+        - nzbget
+        - sonarr
+        - couchpotato
+
+    - name: Haskell Vim Install
+      sudo: false
+      shell: curl -sL https://git.io/haskell-vim-now | bash
