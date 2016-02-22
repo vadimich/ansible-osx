@@ -2,12 +2,12 @@
 cache_dir: ~/Library/Caches/battleschool
 
 sources:
-  local:
-    - homebrew_playbook.yml
+  #local:
+  #  - homebrew_playbook.yml
 
-#  url:
-#    - name: vadim_playbook.yml
-#      url: https://raw.githubusercontent.com/vadimich/ansible-osx/master/vadim_playbook.yml
+  url:
+    - name: vadim_playbook.yml
+      url: https://raw.githubusercontent.com/vadimich/ansible-osx/master/homebrew_playbook.yml
 
   git:
     - name: 'osx'
