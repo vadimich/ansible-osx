@@ -28,6 +28,7 @@
         - nzbget
         - sonarr
         - couchpotato
+        - spectacle
 
     - name: Haskell Vim Install
       sudo: false
