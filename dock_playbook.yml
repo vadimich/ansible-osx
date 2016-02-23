@@ -20,4 +20,4 @@
       
     - name: add Download folder
       sudo: false
-      dockutil --add '~/Downloads' --view grid --display folder
+      command: dockutil --add '~/Downloads' --view grid --display folder
