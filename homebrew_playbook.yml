@@ -29,6 +29,7 @@
         - sonarr
         - couchpotato
         - spectacle
+        - slack
 
     - name: Haskell Vim Install
       sudo: false
