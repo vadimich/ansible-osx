@@ -1,0 +1,23 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: remove all the current dock items
+      sudo: false
+      command: dockutil --remove all
+      
+    - name: add MailMate
+      sudo: false
+      command: dockutil --add ~/Applications/MailMate.app
+      
+    - name: add Chrome
+      sudo: false
+      command: dockutil --add ~/Applications/Google\ Chrome.app
+      
+    - name: add iTerm2
+      sudo: false
+      command: dockutil --add ~/Applications/iTerm.app
+      
+    - name: add Download folder
+      sudo: false
+      dockutil --add '~/Downloads' --view grid --display folder
