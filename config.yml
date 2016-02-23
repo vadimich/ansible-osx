@@ -7,10 +7,10 @@ sources:
 
   url:
     - name: homebrew_playbook.yml
-      url: https://raw.githubusercontent.com/vadimich/ansible-osx/master/homebrew_playbook.yml
+      url: https://raw.githubusercontent.com/vadimich/ansible-osx/master/playbooks/homebrew_playbook.yml
       
     - name: dock_playbook.yml
-      url: https://raw.githubusercontent.com/vadimich/ansible-osx/master/dock_playbook.yml 
+      url: https://raw.githubusercontent.com/vadimich/ansible-osx/master/playbooks/dock_playbook.yml 
   
   git:
     - name: 'osx'
