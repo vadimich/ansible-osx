@@ -25,3 +25,7 @@
     - name: add Download folder
       sudo: false
       command: dockutil --add '~/Downloads' --view grid --display folder
+      
+    - name: Set dock to autohide
+      sudo: false
+      command: osascript -e "tell application \"System Events\" to set the autohide of the dock preferences to true"
