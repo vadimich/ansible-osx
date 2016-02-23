@@ -18,6 +18,10 @@
       sudo: false
       command: dockutil --add ~/Applications/iTerm.app
       
+    - name: add Slack
+      sudo: false
+      command: dockutil --add ~/Applications/Slack.app
+      
     - name: add Download folder
       sudo: false
       command: dockutil --add '~/Downloads' --view grid --display folder
