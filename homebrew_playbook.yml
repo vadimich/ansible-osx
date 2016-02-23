@@ -12,6 +12,8 @@
       with_items:
         - dockutil
         - haskell-stack
+        - coreutils
+        - tmux
 
     - name: Install Homebrew Casks
       sudo: false
