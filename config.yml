@@ -6,12 +6,12 @@ sources:
   #  - homebrew_playbook.yml
 
   url:
-    - name: Install all the apps via Homebrew and Homebrew Cask
+    - name: homebrew_playbook.yml
       url: https://raw.githubusercontent.com/vadimich/ansible-osx/master/homebrew_playbook.yml
       
-    - name: managing Dock for OSX.yml
-      url: https://raw.githubusercontent.com/vadimich/ansible-osx/master/dock_playbook.yml
-
+    - name: dock_playbook.yml
+      url: https://raw.githubusercontent.com/vadimich/ansible-osx/master/dock_playbook.yml 
+  
   git:
     - name: 'osx'
       repo: 'https://github.com/vadimich/ansible-osx'
