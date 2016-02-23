@@ -29,3 +29,29 @@
     - name: Set dock to autohide
       sudo: false
       command: osascript -e "tell application \"System Events\" to set the autohide of the dock preferences to true"
+
+# Launch apps on startup
+
+    - name: launch on startup and hide MailMate
+      sudo: false
+      command: osascript -e 'tell application "System Events" to make new login item at end with properties {path:"/Users/vadimich/Applications/MailMate.app", name:"MailMate", hidden:true}'
+      
+    - name: launch on startup and hide Spectacle
+      sudo: false
+      command: osascript -e 'tell application "System Events" to make new login item at end with properties {path:"/Users/vadimich/Applications/Spectacle.app", name:"Spectacle", hidden:true}'
+     
+    - name: launch on startup and hide Dropbox
+      sudo: false
+      command: osascript -e 'tell application "System Events" to make new login item at end with properties {path:"/Users/vadimich/Applications/Dropbox.app", name:"Dropbox", hidden:true}'
+
+    - name: launch on startup and hide Dashlane
+      sudo: false
+      command: osascript -e 'tell application "System Events" to make new login item at end with properties {path:"/Users/vadimich/Applications/Dashlane.app", name:"Dashlane", hidden:true}'
+
+    - name: launch on startup and hide OmniFocus
+      sudo: false
+      command: osascript -e 'tell application "System Events" to make new login item at end with properties {path:"/Users/vadimich/Applications/OmniFocus.app", name:"OmniFocus", hidden:true}'
+      
+    - name: launch on startup and hide Fantastical 2
+      sudo: false
+      command: osascript -e 'tell application "System Events" to make new login item at end with properties {path:"/Users/vadimich/Applications/Fantastical 2.app", name:"Fantastical 2", hidden:true}'
