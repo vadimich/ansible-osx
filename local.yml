@@ -1,6 +1,0 @@
----
-- hosts: workstation
-
-  tasks:
-    - name: print from playbook
-      debug: msg="in spencer-gibb/ansible-osx/local.yml"
