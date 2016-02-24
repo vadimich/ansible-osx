@@ -4,7 +4,7 @@
   tasks:
     - name: install homebrew_taps
       sudo: false
-      homebrew_tap: tap=gapple/services,pivotal/tap,caskroom/cask 
+      homebrew_tap: tap=gapple/services,pivotal/tap,caskroom/cask
 
     - name: Install Homebrew recepies
       sudo: false
@@ -32,6 +32,7 @@
         - couchpotato
         - spectacle
         - slack
+        - vagrant
 
     - name: Haskell Vim Install
       sudo: false
