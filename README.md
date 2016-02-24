@@ -7,4 +7,6 @@ Setting up BattleSchool
 3. Install battleschool: `sudo pip install battleschool`
 4. Create alias in the .profile:
   `alias battle='battle --ask-sudo-pass --config-file https://raw.githubusercontent.com/vadimich/ansible-osx/master/config.yml'`
-5. Run: `battle`
+5. Create alias in the .profile for cleaning playbook cache: `alias cleanbattle='rm ~/Library/Cache/battleschool/*.yml'`
+6. Update: `source ~/.profile`
+7. Run: `battle`
