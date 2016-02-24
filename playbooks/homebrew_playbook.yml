@@ -14,6 +14,7 @@
         - haskell-stack
         - coreutils
         - tmux
+        - autojump
 
     - name: Install Homebrew Casks
       sudo: false
