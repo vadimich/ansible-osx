@@ -55,3 +55,7 @@
     - name: launch on startup and hide Fantastical 2
       sudo: false
       command: osascript -e 'tell application "System Events" to make new login item at end with properties {path:"/Users/vadimich/Applications/Fantastical 2.app", name:"Fantastical 2", hidden:true}'
+
+    - name: launch on startup and hide tunnelblick
+      sudo: false
+      command: osascript -e 'tell application "System Events" to make new login item at end with properties {path:"/Users/vadimich/Applications/Tunnelblick.app", name:"Tunnelblick", hidden:true}'
