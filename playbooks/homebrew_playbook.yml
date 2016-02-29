@@ -15,6 +15,7 @@
         - coreutils
         - tmux
         - autojump
+        - the_silver_searcher
 
     - name: Install Homebrew Casks
       sudo: false
