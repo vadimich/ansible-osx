@@ -23,6 +23,7 @@
       with_items:
         - dashlane
         - vmware-fusion
+        - virtualbox
         - fantastical
         - omnifocus
         - mailmate
