@@ -37,6 +37,7 @@
         - slack
         - vagrant
         - tunnelblick
+        - spotify
 
     - name: Haskell Vim Install
       sudo: false
