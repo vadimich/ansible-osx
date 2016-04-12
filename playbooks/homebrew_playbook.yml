@@ -22,6 +22,7 @@
       homebrew_cask: name={{item}}
       with_items:
         - dashlane
+        - spotify
         - vmware-fusion
         - virtualbox
         - fantastical
@@ -37,7 +38,6 @@
         - slack
         - vagrant
         - tunnelblick
-        - spotify
 
     - name: Haskell Vim Install
       sudo: false
