@@ -35,5 +35,5 @@
         - sonarr
         - couchpotato
         - spectacle
-        - slack
         - vagrant
+        - slack
