@@ -11,7 +11,6 @@
       homebrew: name={{item}}
       with_items:
         - dockutil
-        - haskell-stack
         - coreutils
         - tmux
         - autojump
@@ -26,14 +25,10 @@
         - vmware-fusion
         - virtualbox
         - fantastical
-        - omnifocus
         - mailmate
         - google-chrome
         - dropbox
         - iterm2
-        - nzbget
-        - sonarr
-        - couchpotato
         - spectacle
         - vagrant
         - slack
