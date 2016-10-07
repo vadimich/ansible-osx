@@ -37,7 +37,3 @@
         - spectacle
         - slack
         - vagrant
-
-    - name: Haskell Vim Install
-      sudo: false
-      shell: curl -sL https://git.io/haskell-vim-now | bash
