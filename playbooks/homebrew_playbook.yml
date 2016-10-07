@@ -37,7 +37,6 @@
         - spectacle
         - slack
         - vagrant
-        - tunnelblick
 
     - name: Haskell Vim Install
       sudo: false

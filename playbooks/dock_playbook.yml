@@ -50,7 +50,7 @@
 
     - name: launch on startup and hide OmniFocus
       sudo: false
-      command: osascript -e 'tell application "System Events" to make new login item at end with properties {path:"/Users/vadimich/Applications/OmniFocus.app", name:"OmniFocus", hidden:true}'
+      command: osascript -e 'tell application "System Events" to make new login item at end with properties {path:"/Applications/OmniFocus.app", name:"OmniFocus", hidden:true}'
       
     - name: launch on startup and hide Fantastical 2
       sudo: false
